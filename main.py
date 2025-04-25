@@ -56,7 +56,7 @@ def site_design(message):
 
 @bot.message_handler(func=lambda m: m.text == "Tools 🛠️")
 def custom_code(message):
-    bot.send_message(message.chat.id, "Soon ...")
+    bot.send_message(message.chat.id, "Soon ....")
 
 @bot.message_handler(func=lambda m: m.text == "MY Market 🛒")
 def custom_code(message):
